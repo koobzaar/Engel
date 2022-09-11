@@ -55,5 +55,5 @@ It's recommended to specify all your channelId's at `.env`, load them and send a
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
 
