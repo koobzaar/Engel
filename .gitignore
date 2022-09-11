@@ -1,4 +1,8 @@
-# Logs
+.env
+node_modules/
+package-lock.json
+dependa/
+
 logs
 *.log
 npm-debug.log*
