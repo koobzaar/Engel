@@ -3,7 +3,7 @@
 Easy forward your Telegram messages.
 ## Description
 Engel is a Telegram message forwarding bot. It connects to a Discord bot and send it to a specific channel using NodeJS.
-Currently, it does not support Telegram bots - it connects though your account using your phone number.
+Currently, it does not support Telegram bots - it connects through your account using your phone number.
 Also, it will forward every message you receive. But you can filter it by changing some code.
 
 It is based on FordwardGram [kkapuria3 project](https://github.com/Sqble/Telegram-To-Discord-Bot-Fixed) and [Sqble fix](https://github.com/Sqble/Telegram-To-Discord-Bot-Fixed), but with regular update and support.
