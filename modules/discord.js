@@ -29,11 +29,7 @@ class Discord {
             if (message.length > 2000) {
                 this.splitLargeMessages(message).then((messageArray) => {
                     messageArray.forEach((message) => {
-                        this.client.channels.cache.get(this.channelID).send(message).then((message) => {
-                            message.delete({
-                                timeout: 2000
-                            });
-                        });
+                        this.client.channels.cache.get(this.channelID).send(message);
                     })
                 })
             } else this.client.channels.cache.get(this.channelID).send(message);
