@@ -48,7 +48,7 @@ npm run start
 
 At `modules/telegram.js` you can find `_handlerNewmessage(event)` function. Inside there you can make a validation to only forward to a specific Telegram channelId. You can get the channelId from the message using `event.message.peerId.channelId.value`.
 
-Also, you can also use an array of Telegram ID and check if the message channelId are contained inside to specify multiple channels.
+Also, you can use an array of Telegram ID and check if the message channelId are contained inside to specify multiple channels.
 
 It's recommended to specify all your channelId's at `.env`, load them and send as a parameter to `TelegramConnector` class at `main.js` file.
 
