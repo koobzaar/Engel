@@ -1,7 +1,9 @@
 ## [🚀] Description
 
 Engel is a message forwarding bot for Telegram that connects to a Discord bot and sends messages to a specific channel using Node.js. The bot connects to Telegram through the user's account using their phone number and currently forwards every message received. However, it is possible to filter the messages by modifying the code. The project is based on the FordwardGram and Sqble fix projects but has regular updates and support.
-[🔑] Environment Variables
+
+
+## [🔑] Environment Variables
 
 To run the project, an .env file must be created and the following environment variables must be set:
 
