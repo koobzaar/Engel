@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/6crlGE1.jpg">
 
 # Description
-Engel is a message forwarding bot for Telegram that connects to a Discord bot and sends messages to a specific channel using Node.js. The bot connects to Telegram through the user's account using their phone number and currently forwards every message received. However, it is possible to filter the messages by modifying the code. The project is based on the FordwardGram (No longer available) and [Sqble fix](https://github.com/Sqble/Telegram-To-Discord-Bot-Fixed) projects but has support. Just submite an issue.
+Engel is a message forwarding bot for Telegram that connects to a Discord bot and sends messages to a specific channel using Node.js. The bot connects to Telegram through the user's account using their phone number and currently forwards every message received. However, it is possible to filter the messages by modifying the code. The project is based on the FordwardGram (No longer available) and [Sqble fix](https://github.com/Sqble/Telegram-To-Discord-Bot-Fixed) projects, but it has user support. Just submit an issue.
 
 # [# 🔧] Installation
 ### Step 1: Install Node.js.
