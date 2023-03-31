@@ -2,9 +2,7 @@
 <img src="https://i.imgur.com/6crlGE1.jpg">
 
 # Description
-This project contains two connectors, Discord and Telegram, that allow you to forward messages between these platforms. The code is written in JavaScript using the Node.js runtime and the Discord.js and Telegram API libraries.
-
-The Discord connector allows you to receive messages from a Discord channel and forward them to Telegram. The Telegram connector, on the other hand, receives messages from Telegram and forwards them to a Discord channel.
+Engel is a message forwarding bot for Telegram that connects to a Discord bot and sends messages to a specific channel using Node.js. The bot connects to Telegram through the user's account using their phone number and currently forwards every message received. However, it is possible to filter the messages by modifying the code. The project is based on the FordwardGram (No longer available) and [Sqble fix](https://github.com/Sqble/Telegram-To-Discord-Bot-Fixed) projects but has support. Just submite an issue.
 
 # [# 🔧] Installation
 ### Step 1: Install Node.js.
